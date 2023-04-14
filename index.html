@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>박조은 | 백엔드 개발자</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Portfolio" />
+
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
-    <script src="https://kit.fontawesome.com/fa62c117c7.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    <title>Joeun's Portfolio</title>
+
+    <script src="https://kit.fontawesome.com/fa62c117c7.js"></script>
   </head>
   <body class="light" id="top">
     <header class="header center">
@@ -19,9 +23,10 @@
 
       <nav class="nav center">
         <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#career">career</a>
-          </li>
+          <li class="nav__list-item"><a class="link link--nav" href="" download="박조은_이력서">resume</a></li>
+          <li class="nav__list-item"><a class="link link--nav" href="">blog</a></li>
+          <li class="nav__list-item"><a class="link link--nav" href="https://github.com/mrnglory">github</a></li>
+          <li class="nav__list-item"><a class="link link--nav" href="https://www.linkedin.com/in/mrnglory/">linkedin</a></li>
         </ul>
 
         <button type="button" aria-label="toggle theme" class="btn btn--icon">
@@ -38,97 +43,645 @@
 
       <!-- About -->
       <div class="about center">
-        <h1 class="sentence">
-          Hi, I'm
-          <span class="about__name words words-1">Joeun Park</span>
-        </h1>
-        <h2 class="about__role">A Back-end Developer.</h2>
+        <h2 class="about__role">
+          안녕하세요.<br/> <span>백엔드 개발자 박조은</span>입니다.
+        </h2>
+
         <p class="about__desc">
-
+          학생 시절에는 개발자라는 직업이 제게 과분하다고 생각하며 공부를 소홀히 했던 것이 사실입니다.
+          하지만 어느 순간부터 백엔드 개발에 적성이 있음을 깨달았고,
+          이제는 현실 세계에서 일어나는 일들을 효율적으로 풀어내며 사용자에게 즐거움을 제공하는 개발자로 지속 성장하는 것을 꿈꾸고 있습니다.
         </p>
-
-        <div class="about__contact center">
-          <a href="https://example.com">
-            <span class="btn btn--outline resume">resume</span>
-          </a>
-
-          <a href="https://github.com" aria-label="github" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-
-          <a href="https://linkedin.com" aria-label="linkedin" class="link link--icon">
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-        </div>
       </div>
-
-      <section class="section skills">
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">FastAPI</li>
-          <li class="skills__list-item btn btn--plain">SQLAlchemy</li>
-          <li class="skills__list-item btn btn--plain">MySQL</li>
-        </ul>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">Spring</li>
-          <li class="skills__list-item btn btn--plain">MyBatis</li>
-          <li class="skills__list-item btn btn--plain">Oracle</li>
-        </ul>
-      </section>
 
       <!-- career -->
       <section id="career" class="section">
-        <h2 class="section__title">career</h2>
-        <div class="career__grid">
-          <div class="career">
-            <h3>SPEC</h3>
-            <p class="career__description">
+        <h2 class="section__title">경력</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>KB증권</h3>
+            <h5>팀원 | SPEC 운영 Unit</h5>
+            <h5>용역계약직 | 백엔드 개발</h5>
+            <h5>2022.07 ~ current </h5>
+            <p class="content__description">
               Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
               sapiente debitis labore sed ipsam Mollitia repellat illum quod
               unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
               sapiente debitis labore sed ipsam Mollitia repellat illum quod
               unde beatae Quis
             </p>
-            <ul class="career__stack">
-              <li class="career__stack-item">FastAPI</li>
-              <li class="career__stack-item">SQLAlchemy</li>
-              <li class="career__stack-item">MySQL</li>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">FastAPI</li>
+              <li class="content__tack-stack-item">SQLAlchemy</li>
+              <li class="content__tack-stack-item">MySQL</li>
+              <li class="content__tack-stack-item">AWS</li>
             </ul>
-
-            <a href="https://github.com" aria-label="source code" class="link link--icon">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a href="https://example.com" aria-label="live preview" class="link link--icon">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BitBucket</li>
+              <li class="content__tack-stack-item">Postman</li>
+              <li class="content__tack-stack-item">PyCharm</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Slack</li>
+              <li class="content__tack-stack-item">Jira</li>
+              <li class="content__tack-stack-item">Confluence</li>
+            </ul>
           </div>
-          <div class="career">
+          <div class="content">
             <h3>NICE D&B</h3>
-            <p class="career__description">
+            <h5>사원 | IT본부 IT개발실</h5>
+            <h5>정규직 | 시스템 유지보수</h5>
+            <h5>2021.08 ~ 2022.03</h5>
+            <p class="content__description">
               Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
               sapiente debitis labore sed ipsam Mollitia repellat illum quod
               unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
               sapiente debitis labore sed ipsam Mollitia repellat illum quod
               unde beatae Quis
             </p>
-            <ul class="career__stack">
-              <li class="career__stack-item">Spring</li>
-              <li class="career__stack-item">MyBatis</li>
-              <li class="career__stack-item">Oracle</li>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
             </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-            <a href="https://github.com" aria-label="source code" class="link link--icon">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a href="https://example.com" aria-label="live preview" class="link link--icon">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
+      <!-- educational-background -->
+      <section id="educational-background" class="section">
+        <h2 class="section__title">학력</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>홍익대학교 서울캠퍼스</h3>
+            <h5>졸업 | 정보·컴퓨터공학부 컴퓨터공학전공 학사</h5>
+            <h5>2019.03 ~ 2021.08</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">FastAPI</li>
+              <li class="content__tack-stack-item">SQLAlchemy</li>
+              <li class="content__tack-stack-item">MySQL</li>
+              <li class="content__tack-stack-item">AWS</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BitBucket</li>
+              <li class="content__tack-stack-item">Postman</li>
+              <li class="content__tack-stack-item">PyCharm</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Slack</li>
+              <li class="content__tack-stack-item">Jira</li>
+              <li class="content__tack-stack-item">Confluence</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>남서울대학교</h3>
+            <h5>중퇴 | 멀티미디어학과</h5>
+            <h5>2016.03 ~ 2018.02</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- project -->
+      <section id="project" class="section">
+        <h2 class="section__title">프로젝트</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>딥러닝 알고리즘 성능 최적화</h3>
+            <h5>인공지능및머신러닝 | 홍익대학교</h5>
+            <h5>2020.09 ~ 2020.12</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Smart Home IoT</h3>
+            <h5>다학제협업설계(캡스톤디자인) | 홍익대학교</h5>
+            <h5>2020.03 ~ 2020.06</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">FastAPI</li>
+              <li class="content__tack-stack-item">SQLAlchemy</li>
+              <li class="content__tack-stack-item">MySQL</li>
+              <li class="content__tack-stack-item">AWS</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BitBucket</li>
+              <li class="content__tack-stack-item">Postman</li>
+              <li class="content__tack-stack-item">PyCharm</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Slack</li>
+              <li class="content__tack-stack-item">Jira</li>
+              <li class="content__tack-stack-item">Confluence</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>게시판 CRUD 기능 구현</h3>
+            <h5>기초데이터베이스 | 홍익대학교</h5>
+            <h5>2020.09 ~ 2020.12</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>커뮤니티 새 글 알림 서비스</h3>
+            <h5>컴퓨터공학개론 | 홍익대학교</h5>
+            <h5>2020.03 ~ 2020.06</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>뉴스 기사 크롤링 및 워드 클라우드 제작</h3>
+            <h5>세미나 | Facebook Innovation Lab</h5>
+            <h5>2019.07.29</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>VR/AR 게임 개발</h3>
+            <h5>VR/AR 제작 | 남서울대학교</h5>
+            <h5>2017.08 ~ 2017.12</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>타자 게임</h3>
+            <h5>멀티미디어프로그래밍 | 남서울대학교</h5>
+            <h5>2017.08 ~ 2017.12</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- school-activities -->
+      <section id="school-activities" class="section">
+        <h2 class="section__title">교내활동</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>2020학년도 하계 방학 교내 연계 인턴십</h3>
+            <h5>마르코인터내셔널 | 홍익대학교</h5>
+            <h5>2020.06 ~ 2020.08</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>전공 수업 실습 보조</h3>
+            <h5>C-프로그래밍 | 홍익대학교</h5>
+            <h5>2020.03 ~ 2020.06</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>2019학년도 하계 방학 교내 연계 인턴십</h3>
+            <h5>변리사무소 월드아이피씨 | 홍익대학교</h5>
+            <h5>2019.06 ~ 2019.08</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BXM</li>
+              <li class="content__tack-stack-item">MyBatis</li>
+              <li class="content__tack-stack-item">Oracle</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">OzReport</li>
+              <li class="content__tack-stack-item">Orange</li>
+              <li class="content__tack-stack-item">SVN</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Jennifer</li>
+              <li class="content__tack-stack-item">Jira</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>제32대 웅비 컴퓨터공학과 학생회</h3>
+            <h5>문화부 문화차장 | 홍익대학교</h5>
+            <h5>2019.03 ~ 2019.12</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>학과 알고리즘 학회 HI-ARC</h3>
+            <h5>학회원 | 홍익대학교</h5>
+            <h5>2019.03 ~ 2020.06</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>공과대학 농촌 봉사활동</h3>
+            <h5>청양군자원봉사센터 | 홍익대학교</h5>
+            <h5>2019.09.20 ~ 2019.09.22</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>학과 창업동아리 IMB</h3>
+            <h5>총무 | 남서울대학교</h5>
+            <h5>2016.03 ~ 2017.07</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- course -->
+      <section id="course" class="section">
+        <h2 class="section__title">교육사항</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>핀테크 서비스 개발 기초 과정</h3>
+            <h5>한국인터넷진흥원</h5>
+            <h5>2021.02.22 ~ 2021.02.26</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">FastAPI</li>
+              <li class="content__tack-stack-item">SQLAlchemy</li>
+              <li class="content__tack-stack-item">MySQL</li>
+              <li class="content__tack-stack-item">AWS</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BitBucket</li>
+              <li class="content__tack-stack-item">Postman</li>
+              <li class="content__tack-stack-item">PyCharm</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Slack</li>
+              <li class="content__tack-stack-item">Jira</li>
+              <li class="content__tack-stack-item">Confluence</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>AI 온라인 교육 입문 과정</h3>
+            <h5>정보통신산업진흥원</h5>
+            <h5>2020.09.22 ~ 2020.12.08</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">FastAPI</li>
+              <li class="content__tack-stack-item">SQLAlchemy</li>
+              <li class="content__tack-stack-item">MySQL</li>
+              <li class="content__tack-stack-item">AWS</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BitBucket</li>
+              <li class="content__tack-stack-item">Postman</li>
+              <li class="content__tack-stack-item">PyCharm</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Slack</li>
+              <li class="content__tack-stack-item">Jira</li>
+              <li class="content__tack-stack-item">Confluence</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- certificate -->
+      <section id="certificate" class="section">
+        <h2 class="section__title">자격사항</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>정보처리기사</h3>
+            <h5>2021.06.02 | 한국산업인력공단</h5>
+            <h5>SN: 212011014390</h5>
+          </div>
+          <div class="content">
+            <h3>컴퓨터활용능력1급</h3>
+            <h5>2021.03.06 | 대한상공회의소</h5>
+            <h5>SN: 21-K9-022591</h5>
+          </div>
+          <div class="content">
+            <h3>MOS Excel Expert 2016</h3>
+            <h5>2017.12.07 | Microsoft</h5>
+            <h5>SN: 29467578</h5>
+          </div>
+        </div>
+      </section>
+
+      <!-- prize -->
+      <section id="prize" class="section">
+        <h2 class="section__title">수상경력</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>2017학년도 교내 캡스톤디자인 공모전</h3>
+            <h5>우수상 | 웹 개발 부문 | 남서울대학교</h5>
+            <h5>2017.03 ~ 2017.06</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">FastAPI</li>
+              <li class="content__tack-stack-item">SQLAlchemy</li>
+              <li class="content__tack-stack-item">MySQL</li>
+              <li class="content__tack-stack-item">AWS</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">BitBucket</li>
+              <li class="content__tack-stack-item">Postman</li>
+              <li class="content__tack-stack-item">PyCharm</li>
+            </ul>
+            <ul class="content__tack-stack">
+              <li class="content__tack-stack-item">Slack</li>
+              <li class="content__tack-stack-item">Jira</li>
+              <li class="content__tack-stack-item">Confluence</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>2017년 빛공해공모전</h3>
+            <h5>대상 | 사진·UCC | 서울시·조명박물관</h5>
+            <h5>2017.03 ~ 2017.06</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>2017학년도 가을학기 영어능력경시대회</h3>
+            <h5>우수상 | 남서울대학교</h5>
+            <h5>2017.11.29</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- other-activity -->
+      <section id="other-activity" class="section">
+        <h2 class="section__title">기타활동</h2>
+        <div class="content__grid">
+          <div class="content">
+            <h3>댄싱사이더컴퍼니 팝업스토어</h3>
+            <h5>아르바이트 | 판촉, 결제, 재고관리</h5>
+            <h5>2021.05.14 ~ 2021.05.16</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>간바레미나상</h3>
+            <h5>아르바이트 | 이자카야 | 서울시 마포구</h5>
+            <h5>홀서빙, 손님응대, 매장관리, 음료제조</h5>
+            <h5>2020.02 ~ 2020.08</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+          </div>
+          <div class="content">
+            <h3>서울돼지구이</h3>
+            <h5>아르바이트 | 고기집 | 서울시 마포구</h5>
+            <h5>홀서빙, 손님응대, 매장관리, 고기굽기</h5>
+            <h5>2019.08 ~ 2019.12</h5>
+            <p class="content__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="footer__link">ⓒ2023. 박조은. All Rights Reserved.</a>
+      <a class="footer__link">
+        ⓒ<script>document.write(new Date().getFullYear())</script>. 박조은. All Rights Reserved.
+      </a>
     </footer>
 
     <div class="scroll-container">
