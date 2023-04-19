@@ -310,17 +310,37 @@ main {
   transition: transform 0.2s linear;
 }
 
+.content__list {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: left;
+  list-style: disc;
+}
+
+.content__list li {
+  margin-top: 5px;
+}
+
+.content__link {
+  margin-top: 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.content__link li {
+  margin: 0 0.5em 0 0.5em;
+}
+
 .content h5 {
   font-weight: normal;
   font-size: 0.9em;
 }
 
-.content p {
-  text-align: left;
-}
-
 .content__description {
   margin: 2em 0;
+  font-size: 0.9em;
 }
 
 .contact__stack {
